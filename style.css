@@ -1,0 +1,59 @@
+body {
+    background: url("background/space.jpg") ;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Comic Sans MS";
+    font-weight: bolder;
+    color: greenyellow;
+    text-align: center
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+
+button {
+    width: 10%;
+    height: 100px;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    color: hotpink;
+    background-color: greenyellow;
+}
+
+#space {
+    width: 100%;
+}
+
+#keyBoard {
+    text-align: center;
+    border: solid black 1px ;
+    margin-bottom: 20px;
+}
+
+#textBox {
+    border: solid hotpink 3px ;
+    height: 300px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: greenyellow;
+}
+
+.kbbutton {
+    width: 49%;
+    height: 90px;
+}
+.kbbutton:hover {
+    background-color: lawngreen;
+}
+
+.kbbutton:active {
+    color: greenyellow;
+    background-color: hotpink;
+}
+
